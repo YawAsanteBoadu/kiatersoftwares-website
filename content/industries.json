@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Education",
+    "description": "School management, administration, learning and communication systems.",
+    "icon": "graduation-cap"
+  },
+  {
+    "name": "Healthcare",
+    "description": "Digital management and operational systems.",
+    "icon": "heart-pulse"
+  },
+  {
+    "name": "Retail",
+    "description": "Inventory, sales, customer and business management.",
+    "icon": "shopping-bag"
+  },
+  {
+    "name": "Logistics",
+    "description": "Delivery, tracking and operational workflows.",
+    "icon": "truck"
+  },
+  {
+    "name": "Agriculture",
+    "description": "Digital tools for agricultural operations and value chains.",
+    "icon": "sprout"
+  },
+  {
+    "name": "Hospitality",
+    "description": "Reservations, operations and customer systems.",
+    "icon": "bed-double"
+  },
+  {
+    "name": "Professional Services",
+    "description": "Workflow, customer and document management.",
+    "icon": "briefcase"
+  },
+  {
+    "name": "Custom",
+    "description": "If your industry isn't listed, we research your requirements and design accordingly.",
+    "icon": "puzzle"
+  }
+]
