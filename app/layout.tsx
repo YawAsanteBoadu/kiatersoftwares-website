@@ -1,12 +1,16 @@
 import type { Metadata, Viewport } from "next";
-import { Inter, Space_Grotesk } from "next/font/google";
+import { Poppins, Space_Grotesk } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import { Footer } from "@/components/layout/Footer";
 import { Header } from "@/components/layout/Header";
 import { siteConfig } from "@/lib/site";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"], variable: "--font-inter", display: "swap" });
+const inter = Poppins({ 
+  subsets: ["latin"], 
+    weight: ["400", "500", "600", "700"], 
+  variable: "--font-inter", 
+  display: "swap" });
 const display = Space_Grotesk({
   subsets: ["latin"],
   variable: "--font-display-face",
