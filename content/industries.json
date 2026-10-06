@@ -2,41 +2,57 @@
   {
     "name": "Education",
     "description": "School management, administration, learning and communication systems.",
-    "icon": "graduation-cap"
+    "icon": "graduation-cap",
+    "backgroundImage": "/images/industries/education.webp",
+    "backgroundColor": "rgba(1, 237, 3, 0.05)"
   },
   {
     "name": "Healthcare",
     "description": "Digital management and operational systems.",
-    "icon": "heart-pulse"
+    "icon": "heart-pulse",
+    "backgroundImage": "/images/industries/healthcare.webp",
+    "backgroundColor": "rgba(255, 0, 0, 0.05)"
   },
   {
     "name": "Retail",
     "description": "Inventory, sales, customer and business management.",
-    "icon": "shopping-bag"
+    "icon": "shopping-bag",
+    "backgroundImage": "/images/industries/retail.webp",
+    "backgroundColor": "rgba(255, 0, 0, 0.05)"
   },
   {
     "name": "Logistics",
     "description": "Delivery, tracking and operational workflows.",
-    "icon": "truck"
+    "icon": "truck",
+    "backgroundImage": "/images/industries/logistics.webp",
+    "backgroundColor": "rgba(255, 0, 0, 0.05)"
   },
   {
     "name": "Agriculture",
     "description": "Digital tools for agricultural operations and value chains.",
-    "icon": "sprout"
+    "icon": "sprout",
+    "backgroundImage": "/images/industries/agriculture.webp",
+    "backgroundColor": "rgba(255, 0, 0, 0.05)"
   },
   {
     "name": "Hospitality",
     "description": "Reservations, operations and customer systems.",
-    "icon": "bed-double"
+    "icon": "bed-double",
+    "backgroundImage": "/images/industries/hospitality.webp",
+    "backgroundColor": "rgba(255, 0, 0, 0.05)"
   },
   {
     "name": "Professional Services",
     "description": "Workflow, customer and document management.",
-    "icon": "briefcase"
+    "icon": "briefcase",
+    "backgroundImage": "/images/industries/professional_service.webp",
+    "backgroundColor": "rgba(255, 0, 0, 0.  05)"
   },
   {
     "name": "Custom",
     "description": "If your industry isn't listed, we research your requirements and design accordingly.",
-    "icon": "puzzle"
+    "icon": "puzzle",
+    "backgroundImage": "/images/industries/custom.webp",
+    "backgroundColor": "rgba(255, 0, 0, 0.05)"
   }
 ]
