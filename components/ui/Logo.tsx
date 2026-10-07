@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { cn } from "@/lib/utils";
-import mark from "@/public/images/brand/kaiter-mark.png";
+const mark = "/images/brand/kaiter-mark.png";
 
 /** Logo mark + "KAiTER Softwares" wordmark. The mark is decorative; the wordmark names the link. */
 export function Logo({ tone = "dark", className }: { tone?: "dark" | "light"; className?: string }) {
