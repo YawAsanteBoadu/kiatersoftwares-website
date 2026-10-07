@@ -32,8 +32,8 @@ export default function AboutPage() {
               (KAiTER), focused on transforming business operations through technology.
             </p>
             <p>
-              With over 6 years of software development experience, we have worked on software solutions for
-              customers across different needs and business contexts.
+              With over 6 years of software development experience, we have worked on software solutions for customers
+              across different needs and business contexts.
             </p>
             <p className="font-semibold text-ink-950">
               Our philosophy is simple: technology should solve a real problem.

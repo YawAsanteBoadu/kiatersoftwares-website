@@ -6,11 +6,12 @@ import { Header } from "@/components/layout/Header";
 import { siteConfig } from "@/lib/site";
 import "./globals.css";
 
-const inter = Poppins({ 
-  subsets: ["latin"], 
-    weight: ["400", "500", "600", "700"], 
-  variable: "--font-inter", 
-  display: "swap" });
+const inter = Poppins({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-inter",
+  display: "swap",
+});
 const display = Space_Grotesk({
   subsets: ["latin"],
   variable: "--font-display-face",

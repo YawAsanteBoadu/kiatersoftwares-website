@@ -5,6 +5,7 @@ The commercial website for **KAiTER Softwares**, a technology consulting and cus
 **Tech Stack:** Next.js 16 (App Router) · TypeScript (strict) · Tailwind CSS 4 · MDX content · lucide-react
 
 **Key Features:**
+
 - Fully static. Every route is pre-rendered at build time.
 - WhatsApp lead capture. All CTA interactions route to **+233 533 289 892**.
 - MDX-based content management for projects and articles.
@@ -23,13 +24,13 @@ npm run dev        # http://localhost:3000
 
 ## Environment Variables
 
-| Variable                       | Required    | Purpose                                                                                                 |
-| ------------------------------ | ----------- | ------------------------------------------------------------------------------------------------------- |
-| `NEXT_PUBLIC_WHATSAPP_NUMBER`  | yes         | Business WhatsApp number. `233533289892` (international) or `0533289892` (local). Defaults to local.   |
-| `NEXT_PUBLIC_SITE_URL`         | yes (prod)  | Canonical URL, no trailing slash. Drives canonical tags, Open Graph, `sitemap.xml` and `robots.txt`.    |
-| `NEXT_PUBLIC_CONTACT_EMAIL`    | recommended | Email shown on the Contact page and footer. Hidden when empty.                                          |
-| `NEXT_PUBLIC_BUSINESS_ADDRESS` | optional    | Official address shown on the Contact page. Hidden when empty.                                          |
-| `NEXT_PUBLIC_SHOW_DRAFTS`      | optional    | `true` shows draft content in production. Drafts always show in `next dev` and preview deployments.      |
+| Variable                       | Required    | Purpose                                                                                              |
+| ------------------------------ | ----------- | ---------------------------------------------------------------------------------------------------- |
+| `NEXT_PUBLIC_WHATSAPP_NUMBER`  | yes         | Business WhatsApp number. `233533289892` (international) or `0533289892` (local). Defaults to local. |
+| `NEXT_PUBLIC_SITE_URL`         | yes (prod)  | Canonical URL, no trailing slash. Drives canonical tags, Open Graph, `sitemap.xml` and `robots.txt`. |
+| `NEXT_PUBLIC_CONTACT_EMAIL`    | recommended | Email shown on the Contact page and footer. Hidden when empty.                                       |
+| `NEXT_PUBLIC_BUSINESS_ADDRESS` | optional    | Official address shown on the Contact page. Hidden when empty.                                       |
+| `NEXT_PUBLIC_SHOW_DRAFTS`      | optional    | `true` shows draft content in production. Drafts always show in `next dev` and preview deployments.  |
 
 `NEXT_PUBLIC_*` values are inlined at build time — redeploy after changing them.
 
