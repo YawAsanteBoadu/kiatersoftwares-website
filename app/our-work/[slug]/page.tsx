@@ -171,6 +171,43 @@ export default async function ProjectPage({ params }: Props) {
         </section>
       )}
 
+      {project.liveUrl && (
+        <section aria-labelledby="live-preview-heading" className="section">
+          <div className="container-page">
+            <h2 id="live-preview-heading" className="text-3xl font-semibold sm:text-4xl mb-8">
+              Live Preview
+            </h2>
+            <div className="rounded-3xl overflow-hidden border border-ink-100 bg-white shadow-lg">
+              <iframe
+                src={project.liveUrl}
+                title={`${project.title} live preview`}
+                className="w-full"
+                style={{ 
+                  height: "900px", 
+                  border: "none",
+                }}
+                loading="lazy"
+                allow="geolocation; microphone; camera"
+              />
+            </div>
+            <div className="mt-6 flex flex-col sm:flex-row gap-4 justify-center items-center">
+              <p className="text-sm text-ink-600">
+                Viewing live website
+              </p>
+              <a 
+                href={project.liveUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-brand-500 text-ink-950 font-semibold hover:bg-brand-400 transition-colors"
+              >
+                Open Full Screen
+                <ArrowUpRight className="size-4" />
+              </a>
+            </div>
+          </div>
+        </section>
+      )}
+
       <div className="pt-16 sm:pt-20 lg:pt-28">
         <CTASection
           title="Need Something Similar for Your Business?"
